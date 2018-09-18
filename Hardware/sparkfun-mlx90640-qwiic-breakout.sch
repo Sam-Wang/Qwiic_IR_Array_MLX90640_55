@@ -28186,10 +28186,10 @@ package with digital interface.&lt;/p&gt;
 <circle x="2.064753125" y="2.064753125" radius="0.56" width="0" layer="51"/>
 <circle x="-2.064753125" y="-2.064753125" radius="0.56" width="0" layer="51"/>
 <circle x="0" y="0" radius="4.85" width="0.1778" layer="21"/>
-<pad name="GND" x="2.064753125" y="2.064753125" drill="1.25" rot="R180"/>
-<pad name="SCL" x="-2.92" y="0" drill="1.25"/>
-<pad name="SDA" x="-2.064753125" y="-2.064753125" drill="1.25"/>
-<pad name="VDD" x="2.92" y="0" drill="1.25" rot="R180"/>
+<pad name="GND" x="2.064753125" y="2.064753125" drill="1.25" rot="R180" stop="no"/>
+<pad name="SCL" x="-2.92" y="0" drill="1.25" stop="no"/>
+<pad name="SDA" x="-2.064753125" y="-2.064753125" drill="1.25" stop="no"/>
+<pad name="VDD" x="2.92" y="0" drill="1.25" rot="R180" stop="no"/>
 <polygon width="0.127" layer="21">
 <vertex x="-4.625528125" y="-1.458421875"/>
 <vertex x="-5.57924375" y="-1.759128125"/>
@@ -28198,6 +28198,10 @@ package with digital interface.&lt;/p&gt;
 </polygon>
 <text x="-2.54" y="-6.35" size="1.27" layer="25" font="vector">&gt;Name</text>
 <text x="-3.683" y="5.08" size="1.27" layer="27" font="vector">&gt;Value</text>
+<circle x="-2.921" y="0" radius="0.254" width="1.5748" layer="30"/>
+<circle x="-2.064753125" y="-2.064753125" radius="0.254" width="1.5748" layer="30"/>
+<circle x="2.92" y="0" radius="0.254" width="1.5748" layer="30"/>
+<circle x="2.064753125" y="2.064753125" radius="0.254" width="1.5748" layer="30"/>
 </package>
 </packages>
 <symbols>
@@ -28432,7 +28436,7 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 <text x="76.708" y="101.346" size="1.778" layer="97">Power</text>
 <text x="165.354" y="11.43" size="2.54" layer="94" font="vector">Jim Lindblom</text>
 <text x="106.68" y="93.98" size="1.778" layer="97" font="vector">7-bit unshifted I2C Address: 0x33</text>
-<text x="236.22" y="7.62" size="2.54" layer="94" font="vector">v10</text>
+<text x="236.22" y="7.62" size="2.54" layer="94" font="vector">v11</text>
 <text x="168.656" y="7.366" size="2.54" layer="94" font="vector">Andy England</text>
 <text x="114.3" y="132.08" size="2.54" layer="95" font="vector">MLX90640</text>
 <text x="50.8" y="63.5" size="2.54" layer="95" font="vector">Qwiic/I2C Conections</text>
