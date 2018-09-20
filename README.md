@@ -3,7 +3,7 @@ Qwiic IR Array (MLX90640-55x35 FOV)
 
 ![Qwiic IR Array](https://cdn.sparkfun.com/r/500-500/assets/parts/1/3/1/1/4/14844-SparkFun_IR_Array_Breakout_-_55_Degree_FOV__MLX90640__Qwiic_-01.jpg)
 
-*Qwiic IR Array (SEN-14844)*](https://www.sparkfun.com/products/14844)
+[*Qwiic IR Array (SEN-14844)*](https://www.sparkfun.com/products/14844)
 
 The MLX90640 contains a 32x24 array of thermopile sensors creating, in essence, a low resolution thermal imaging camera.
 
